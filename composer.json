@@ -1,0 +1,22 @@
+{
+    "name": "ssphp/sskey",
+    "description": "ssphp sskey",
+    "keywords": ["hfjy", "ssphp", "sskey"],
+    "homepage": "https://github.com/ssphp/sskey.git",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [{
+        "name": "ssphp",
+        "email": "qishaobo@hfjy.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "files": [
+            "src/ssphp/sskey.php"
+        ]
+    }
+}
