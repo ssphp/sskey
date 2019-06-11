@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . "/vendor/autoload.php";
 
-sskey_init(__DIR__.'/vendor/ssphp/sskey/src/tests/sskeyStarter.php');
+sskey_init(__DIR__.'/vendor/ssphp/sskey/tests/sskeyStarter.php');
 
 $password = sskey_encrypt('ssphp');
 var_dump($password);
